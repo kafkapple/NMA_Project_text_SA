@@ -12,7 +12,7 @@ import pandas as pd
 
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from transformers import pipeline
-from skorch import NeuralNetClassifier
+#from skorch import NeuralNetClassifier
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn import svm
 
