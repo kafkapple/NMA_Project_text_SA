@@ -1,0 +1,53 @@
+{
+    "os": "macOS-14.5-arm64-arm-64bit",
+    "python": "3.11.9",
+    "heartbeatAt": "2024-07-17T09:09:03.738518",
+    "startedAt": "2024-07-17T09:09:02.786370",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "2",
+        "--sweeps",
+        "2"
+    ],
+    "state": "running",
+    "program": "/Users/kafka/test/NMA_Project_text_SA/main_text.py",
+    "codePathLocal": "main_text.py",
+    "codePath": "test/NMA_Project_text_SA/main_text.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "biasdrive@gmail.com",
+    "root": "/Users/kafka",
+    "host": "Joonui-MacBookAir.local",
+    "username": "kafka",
+    "executable": "/Users/kafka/miniconda/envs/nma/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3204,
+        "min": 600,
+        "max": 3204
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3204,
+            "min": 600,
+            "max": 3204
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 9.560623168945312
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

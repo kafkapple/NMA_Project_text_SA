@@ -1,0 +1,81 @@
+wandb_version: 1
+
+resume:
+  desc: null
+  value: allow
+architecture:
+  desc: null
+  value: text_model_text_model_v4
+dataset:
+  desc: null
+  value: text
+num_epochs:
+  desc: null
+  value: 2
+MODEL:
+  desc: null
+  value: text_model
+lr:
+  desc: null
+  value: 0.1
+BATCH_SIZE:
+  desc: null
+  value: 64
+input_size:
+  desc: null
+  value: 384
+hidden_size1:
+  desc: null
+  value: 128
+hidden_size2:
+  desc: null
+  value: 128
+num_classes:
+  desc: null
+  value: 6
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.9
+    cli_version: 0.17.4
+    framework: huggingface
+    huggingface_version: 4.42.4
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1721204616
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 32
+      - 33
+      - 41
+      - 49
+      - 53
+      - 55
+      - 75
+      2:
+      - 1
+      - 5
+      - 11
+      - 32
+      - 33
+      - 41
+      - 49
+      - 53
+      - 55
+      - 75
+      3:
+      - 1
+      - 2
+      - 16
+      - 23
+      - 37
+      4: 3.11.9
+      5: 0.17.4
+      6: 4.42.4
+      8:
+      - 4
+      - 5
+      13: darwin-arm64
