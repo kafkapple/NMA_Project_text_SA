@@ -113,7 +113,7 @@ def run_training(num_epochs, is_sweep=False):
     for epoch in tqdm(range(initial_epoch, initial_epoch + num_epochs), desc="Epochs"):
         epoch_start_time = time.time()
         print('Training...')
-        train_loss, train_accuracy, train_precision, train_recall, train_f1, _, _ = train_epoch(model, train_loader, criterion, optimizer, device)
+        train_loss, train_accuracy, train_precision, train_recall, train_f1 = train_epoch(model, train_loader, criterion, optimizer, device)
         val_loss, val_accuracy, val_precision, val_recall, val_f1, _, _=evaluate_model(model, val_loader, criterion,  device)
         #print(f"Epoch [{epoch}/]")
         print(f"Train - Loss: {train_loss:.4f}, Accuracy: {train_accuracy:.4f}, F1: {train_f1:.4f}")
